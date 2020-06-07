@@ -1,0 +1,799 @@
+*body
+{
+	padding: 10%;
+	margin: 0;
+}
+body
+{
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.content
+{
+	width: 900px;
+	height: auto;
+	background: aliceblue;
+}
+.tobbar
+{
+	width: 900px;
+	height: 70px;
+}
+.head
+{
+	width: 800px;
+	background: #6666ff;
+	height: 50px;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 15px;
+}
+.head ul li
+{
+	background-color: #6666ff;
+	width: 140px;
+	height: 28px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	position: relative;
+	border-radius: 10px;
+	margin-top: 7px;
+	border: 2px solid #6666ff;
+}
+.head ul li a
+{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+.head ul ul
+{
+	display: none;
+	position: absolute;
+}
+.head ul li a:hover
+{
+	background-color: brown;
+}
+.head ul li:hover >ul
+{
+	display: block;
+}
+.arsenalbdy
+{
+	width: 100%;
+	height: 900px;
+	background: aliceblue;
+}
+.arsenalbar
+{
+	width: 500px;
+	height: 50px;
+	border-radius: 10px;
+	background: #FF0000;
+}
+.arsenalbar ul li
+{
+	background-color: #FF0000;
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	position: relative;
+	border-radius: 10px;
+	margin-top: 7px;
+	border: 2px solid #FF0000;
+}
+.arsenalbar ul li a
+{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+.arsenal_body
+{
+	width: 1070px;
+	height: 900px;
+	background: white;
+}
+.arsenal_news
+{
+	float: left;
+	width: 300px;
+	height: 900px;
+	background: white;
+	border-radius: 10px;
+}
+.arsenal_news >img
+{
+	width: 200px;
+	height: 200px;
+	margin-left: 40px;
+}
+.arsenal_pics
+{
+	display: inline-flex;
+	width: 530px;
+	height: 700px;
+	background: red;
+	margin-left: 10px;
+	border-radius: 10px;
+
+}
+.arsenal_pics fieldset
+{
+	width: 500px;
+	height: 400px;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: center;
+}
+.arsenal_legendary
+{
+	width: 220px;
+	height: 900px;
+	float: right;
+	background: white;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+.arsenal_legendary >img
+{
+	margin-left: 20px;
+}
+.arsenal_legendary >button
+{
+	width: 220px;
+	height: 30px;
+	background: red;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+.arsenalrecord_window
+{
+	width: 500px;
+	height: 315px;
+	background: yellow;
+	border-radius: 5px; 
+
+}
+#arsenallegend-form{
+	max-width: 500px;
+	padding: 10px;
+	background-color: white;
+}
+.manubdy
+{
+	width: 90%;
+	height: 1200px;
+	background: aliceblue;
+}
+.manubar
+{
+	width: 500px;
+	height: 50px;
+	background: #FF0000;
+	border-radius: 10px
+}
+.manubar ul li
+{
+	background-color: #FF0000;
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	position: relative;
+	border-radius: 10px;
+	margin-top: 7px;
+	border: 2px solid #FF0000;
+}
+.manubar ul li a
+{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+.manu_body
+{
+	width: 1070px;
+	height: 900px;
+	background: white;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+.manu_news
+{
+	float: left;
+	width: 300px;
+	height: 900px;
+	background: #E0FFFF;
+	border-radius: 5px;
+}
+.manu_news img
+{
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.manu_pics
+{
+	display: inline-flex;
+	width: 530px;
+	height: 900px;
+	background: #FFF5EE;
+	margin-left: 10px;
+	border-radius: 5px;
+	
+
+}
+.manu_pics fieldset
+{
+	width: 500px;
+	height: 400px;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: center;
+}
+.manu_legendary img
+{
+   margin-left: 65px;
+}
+.manu_legendary
+{
+	width: 220px;
+	height: 900px;
+	float: right;
+	background: #87CEFA;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+.manu_legendary >button
+{
+	width: 220px;
+	height: 30px;
+	background: #ff6347;
+	border-radius: 5px;
+	border: 2px solid white;
+	color: #000;
+	cursor: pointer;
+}
+.manu_fieldset_slider
+{
+	width: 435px;
+	height: 300px;
+	background: red;
+	border-radius: 10px;
+	overflow: hidden;
+	overflow-x: scroll;
+}
+#manu-facts
+{
+	max-width: 500px;
+	padding: 10px;
+	background: white;
+}
+.manufacts_container
+{
+	width: 800px;
+	height: 300px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: blue;
+
+}
+.main_slider
+{
+	width: 900px;
+	height: 275px;
+	background: white;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.scroll_window
+{
+	width: 500px;
+	height: 315px;
+	background: lightblue;
+	border-radius: 5px;
+	overflow: hidden; 
+
+}
+.btncancel{
+	background-color: #e74c3c;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 60px;
+	height: 30px;
+	margin-bottom: 10px;
+	opacity: 1;
+	border-radius: 5px;
+	float: right;
+	border: 2px solid white;
+	margin-right: 15px;
+}
+.form-popup
+{
+	display: none;
+	position: fixed;
+	border-radius: 10px;
+	top: 50%;
+	left:50%;
+	width: 60%;
+	height: 60%;
+	transform: translate(-50%,-50%);
+
+	z-index: 9;
+}
+#my-form{
+	max-width: 500px;
+	padding: 10px;
+	background-color: white;
+}
+.btncancel
+{
+	background-color: #e74c3c;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 60px;
+	height: 30px;
+	margin-bottom: 10px;
+	opacity: 1;
+	border-radius: 5px;
+	float: right;
+	border: 2px solid white;
+	margin-right: 15px;
+}
+.btn
+{
+	background-color: #4caf50;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 60px;
+	height: 30px;
+	float: left;
+	margin-bottom: 10px;
+	opacity: 1;
+	background-position: center;
+}
+.memesbdy
+{
+	width: 900px;
+	height: 800px;
+	background: aliceblue;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+.memesbar
+{
+	width: 600px;
+	height: 50px;
+	background: #6666ff;
+	border-radius: 10px;
+}
+.memesbar ul li
+{
+	background-color: #6666ff;
+	width: 150px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	position: relative;
+	border-radius: 10px;
+	margin-top: 7px;
+	border: 2px solid #6666ff;
+}
+.memesbar ul button
+{
+	margin-top: 15px;
+	background: #6666ff;
+	color: white;
+	margin-right: 60px;
+	border-radius: 5px;
+}
+.memesbar ul li a
+{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+.memetype
+{
+	width: 800px;
+	height: 800px;
+	background: white;
+	padding: 5px;
+	margin-left: 20px;
+}
+.memetype >div
+{
+	width: 200px;
+	height: 250px;
+	background: lightblue;
+}
+.funny_memes_body
+{
+	width: 900px;
+	height: 1000px;
+	background: aliceblue;
+}
+.funny_memes_bar
+{
+	width: 500px;
+	height: 50px;
+	background: lightseagreen;
+	padding: 10px;
+
+}
+.funny_memes_bar ul li
+{
+	background-color: #6666ff;
+	width: 50px;
+	height: 15px;
+	line-height: 20px;
+	text-align: center;
+	float: left;
+	position: relative;
+	border-radius: 10px;
+	margin-bottom: 1px;
+	border: 1px solid #6666ff;
+	margin-left: 10px;
+}
+.funny_memes_bar img
+{
+	margin-left: 2px;
+}
+.meme_image
+{
+    width: 900px;
+    height: 1000px;
+    background: green; 
+    margin-top: 10px;	
+}
+.meme_image >div
+{
+	width: 200px;
+	height: 220px;
+	background: grey;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+/*.meme_image >img
+{
+	width: 200px;
+	height: 220px;
+	margin-top: 10px;
+	margin-left: 15px;
+}*/
+.meme_image >div img
+{
+	width: 200px;
+	height: 220px;
+	margin-top: 0 auto;
+	margin-left: 0 auto;
+}
+.funnytype
+{
+	float: left;
+}
+#create_meme_form
+{
+	max-width: 500px;
+	padding: 10px;
+	background: white;
+}
+.create_meme_window
+{
+	width: 500px;
+	height: 315px;
+	background: lightseagreen;
+	border-radius: 5px;
+	overflow: hidden; 
+}
+.btnclose
+{
+	background-color: #e74c3c;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 45%;
+	margin-bottom: 10px;
+	opacity: 1;
+}
+.meme_window
+{
+	width: 500px;
+	height: 250px;
+	background: #ADD8E6;
+	
+}
+.biblemotivation
+{
+display: inline-flex;
+margin-left: 50px;	
+}
+.motivation
+{
+	float: right;
+}
+.slider
+{
+	width: 200;
+	height: 250px;
+	overflow: hidden;
+	background-color: #d95f29;
+}
+.slider figure div
+{
+	float: right;
+	width: 200px;
+}
+.slider figure img
+{
+	width: 200px;
+
+}
+.slider figure
+{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s JODHAM infinite;
+}
+@keyframes JODHAM
+{
+0%{left: 0%}
+10%{left: 0%}
+12%{left: -100%}
+22%{left: -100%}
+24%{left: -200%}
+34%{left: -200%}
+36%{left: -300%}
+46%{left: -300%}
+48%{left: -400%}
+58%{left: -400%}
+60%{left: -300%}
+70%{left: -300%}
+72%{left: -200%}
+82%{left: -200%}
+84%{left: -100%}
+94%{left: -100%}
+96%{left: 0%}
+98%{left: 0%}
+}
+
+.birthdaybdy
+{
+	width: 90%;
+	height: 1200px;
+	background: aliceblue;
+}
+.birthdaybar
+{
+	width: 500px;
+	height: 50px;
+	background: #6666ff;
+	border-radius: 10px
+}
+.birthdaybar ul li
+{
+	background-color: #6666ff;
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	position: relative;
+	border-radius: 10px;
+	margin-top: 7px;
+	border: 2px solid #6666ff;
+}
+.birthdaybar ul li a
+{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+.chelseabdy
+{
+	width: 100%;
+	height: 1200px;
+	background: aliceblue;
+}
+.chelseabar
+{
+	width: 500px;
+	height: 50px;
+	background: blue;
+	border-radius: 10px
+}
+.chelseabar ul li
+{
+	background-color: blue;
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	position: relative;
+	border-radius: 10px;
+	margin-top: 7px;
+	border: 2px solid blue;
+}
+.chelseabar ul li a
+{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+.chelsea_body
+{
+	width: 100%;
+	height: 900px;
+	background: white;
+	margin-top: 10px;
+}
+.chelsea_news
+{
+	float: left;
+	width: 300px;
+	height: 900px;
+	background: blue;
+	border-radius: 5px;
+}
+.chelsea_pics
+{
+	display: inline-flex;
+	width: 500px;
+	height: 900px;
+	background: blue;
+	margin-left: 10px;
+	border-radius: 10px;
+
+}
+.chelsea_pics fieldset
+{
+	width: 480px;
+	height: 400px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 15px;
+	text-align: center;
+}
+.chelsea_legendary
+{
+	width: 220px;
+	height: 900px;
+	float: right;
+	background: blue;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+.chelsea_legendary img
+{
+	margin-left: 40px;
+}
+.chelsea_legendary >button
+{
+	width: 220px;
+	height: 30px;
+	background: red;
+	border-radius: 5px;
+}
+#chelsea_facts-form
+{
+	max-width: 500px;
+	padding: 10px;
+	background-color: white;
+}
+.row1
+{
+	float: left;
+}
+.row2
+{
+	display: inline-flex;
+	margin-left: 45px;
+}
+.row3
+{
+	float: right;
+}
+.row4
+{
+	float: left;
+}
+.row5
+{
+	display: inline-flex;
+	margin-left: 45px;
+}
+.row6
+{
+	float: right;
+}
+.infodivs
+{
+	width: 900px;
+	height: 450px;
+	background: aliceblue;
+}
+.footerinfo
+{
+	width: 900px;
+	height: 150px;
+	background: white;
+	margin-top: 900px;
+}
+.news-img
+{
+	position: relative;
+}
+.news-img:before
+{
+position: absolute;
+left: 0;
+top: 0;
+width: 80;
+height: 100%;
+background: #000;
+content: "";
+opacity: 0;
+transform: scale(.8);
+transition: all 0.5s;
+}
+.latest-news-wrap:hover .news-img:before
+{
+	opacity: .5;
+	transform: scale(1);
+}
+.deat
+{
+	background: #f89406 none repeat scroll 0 0;
+	height: 30px;
+	position: absolute;
+	text-align: center;
+	width: 30px;
+	left: 0;
+
+}
+.footer_container
+{
+	width: 900px;
+	height: 200px;
+	background: #0000;
+}
+.aboutus_footer
+{
+	width: 200px;
+	height: 200px;
+	background: #0000;
+	margin-left: 20px;
+}
+.follow_us_footer
+{
+	width: 200px;
+	height: 200px;
+	background: #0000;
+	margin-left: 20px;
+}
